@@ -1,0 +1,10 @@
+# Python dependencies for KnaCLI
+# Install with: pip install -r requirements.txt
+
+textual>=0.80.0     # TUI framework
+httpx>=0.27.0       # Async HTTP client (API calls + torrent cache fetching)
+rich>=13.0.0        # Rich text rendering (used internally by Textual)
+
+# Optional — enables real magnet metadata fetching before download.
+# On Termux: pkg install python-libtorrent
+# libtorrent-python3  # uncomment if available via pip
